@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Title</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+        <style>
+            .navbar {
+                background-color:#7b5392;
+               /* Set navbar height to 80px */
+            }
+    
+       
+    
+            .nav-link {
+                color: white;
+            }
+    
+            .logo {
+                height: 70px;
+                width: 300%; /* Make logo responsive */
+            }
+           
+           
+        </style>
+    </head>
+  
+    <body style="background-color: rgb(43, 38, 38);">
+        <nav class="navbar navbar-expand-sm  navbar-light">
+            <div class="container">
+                <a class="navbar-brand">
+                    <img class="logo" src="./images/logo.png"  alt="No Image">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html" aria-current="page">Home <span class="visually-hidden">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menus</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <a class="dropdown-item" href="./abc.s.html">Small abcs</a>
+                                <a class="dropdown-item" href="./ABCDS.html">Capital ABCS</a>
+                                <a class="dropdown-item" href="./123.html">123</a>
+                                <a class="dropdown-item" href="./rhymes.html">Rhymes</a>
+                                <a class="dropdown-item" href="./tables.html">Tables</a>
+                                <a class="dropdown-item" href="./animals.html">Animals</a>
+                                <a class="dropdown-item" href="./vegetables.html">Vegetables</a>
+                                <a class="dropdown-item" href="./days.html">Days</a>
+                                <a class="dropdown-item" href="./months.html">Months</a>
+                                <a class="dropdown-item" href="./colors.html">Colors</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./feedback.html">FeedBack</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./faqs.html">Faqs</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <br>
+       
+            <div class="container">
+              <h1 style="font-size: 50px; font-family: fantasy; color: #ffffff;text-align: center; ">
+                Welcome to nursery rhymes fun!
+              </h1>
+              <br>
+            </div>
+        </div>
+        <audio id="myAudio">
+            <source src="./Twinkle Twinkle Little Star _ Nursery Rhymes for Kids _ Super Simple Songs.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+          
+          <button onclick="playAudio()" class="btn btn-warning">Play Audio</button>
+        <h2 style="font-size: 40px; font-family: fantasy; color: goldenrod;text-align: center; "> 1. Twinkle Twinkle Little Star</h2>  
+        <div class="container">
+            <div class="row align-items-center">
+                
+                <div
+                    class="col-lg-6"  data-aos="zoom-in-right">
+                 <img style="height: 400px; width: 100%; border: solid 7px;border-color:gold" src="data:image/jpeg;base64,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" alt="">
+                 
+                </div>
+                <div
+                    class="col-lg-6">
+                    <p style="font-size: 35px; font-family: fantasy;" class="text-danger">Twinkle, twinkle, little star,</p>
+        <p style="font-size: 35px; font-family: fantasy;" class="text-success">How I wonder what you are!</p>
+        <p  style="font-size: 35px; font-family: fantasy;" class="text-primary">Up above the world so high,</p>
+        <p   style="font-size: 35px; font-family: fantasy;"class="text-warning">Like a diamond in the sky.</p>
+        </div>
+      
+                <h2 style="font-size: 40px; font-family: fantasy; color: rgb(103, 222, 251);text-align: center; "> 2. Old MacDonald Had a Farm</h2>
+                <div class="container">
+                    <div class="row align-items-center">
+                       
+                        <div
+                            class="col-lg-6">
+                             <p style="font-size: 35px; font-family: fantasy; color:blueviolet;">Old MacDonald had a farm, E-I-E-I-O,</p>
+                <p style="font-size: 35px; font-family: fantasy; color: green;" >And on that farm, he had a cow, E-I-E-I-O,</p>
+                <p  style="font-size: 35px; font-family: fantasy; color: red;" >With a moo-moo here and a moo-moo there,</p>
+                <p   style="font-size: 35px; font-family: fantasy; color: rgb(255, 147, 147);">Here a moo, there a moo, everywhere a moo-moo.</p>
+                  <p style="font-size: 35px; font-family: fantasy;color: deeppink;">Old MacDonald had a farm, E-I-E-I-O,</p>
+                <p style="font-size: 35px; font-family: fantasy; color: sandybrown;" >And on that farm, he had a cow, E-I-E-I-O,</p>
+                        
+                        </div>
+                       
+                        <div
+                            class="col-lg-6" data-aos="flip-left"
+                            data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000">
+                            <img style="height: 500px; width: 100%; border: solid 7px ; border-color: deepskyblue;" src="https://i5.walmartimages.com/seo/Old-MacDonald-Had-a-Farm-Touch-and-Feel-Storybook-Singalong-Book-Novelty-Book-Board-Book-9781952137112_4be8eda2-5954-4eda-a429-d22beac2215e.af1584fb2fe42d31480cf9aedc635678.jpeg" alt="">
+                        </div>
+                    </div>
+        
+                    <h2 style="font-size: 40px; font-family: fantasy; color: #ffffff;text-align: center; ">3. Humpty Dumpty</h2>  
+                    <div class="container">
+                        <div class="row align-items-center">
+                            
+                            <div
+                                class="col-lg-6"  data-aos="zoom-in-up">
+                                <img style="height: 500px; width: 100%; border: solid 7px; border-color: rgb(171, 3, 171);" src="https://kyngkeyah.files.wordpress.com/2019/05/egg.jpg?w=491&h=312&crop=1" alt="">
+                            </div>
+                            <div
+                                class="col-lg-6">
+                                <p style="font-size: 35px; font-family: fantasy;color: rgb(142, 204, 18);">Humpty Dumpty sat on a wall,</p>
+                                <p style="font-size: 35px; font-family: fantasy;color: lightblue; " >Humpty Dumpty had a great fall.</p>
+                                <p  style="font-size: 35px; font-family: fantasy; ;color: brown;" >All the king's horses and all the king's men,</p>
+                                <p   style="font-size: 35px; font-family: fantasy;color: darkslateblue;">Couldn't put Humpty together again.</p>
+                              
+                            </div>
+                            <h2 style="font-size: 40px; font-family: fantasy; color: rgb(241, 253, 136);text-align: center; "> 4. Five Little Ducks</h2>
+                            <div class="container">
+                                <div class="row align-items-center">
+                                    
+                                    <div
+                                        class="col-lg-6">
+                                         <p style="font-size: 35px; font-family: fantasy; color:rgb(255, 225, 0);">Five little ducks went swimming one day,</p>
+                            <p style="font-size: 35px; font-family: fantasy; color: rgb(255, 174, 174);" >Over the hills and far away.,</p>
+                            <p  style="font-size: 35px; font-family: fantasy; color: rgb(255, 119, 0);" >Mother duck said, "Quack, quack, quack, quack,"</p>
+                            <p   style="font-size: 35px; font-family: fantasy; color: rgb(255, 255, 255);">But only four little ducks came back.</p>
+                             
+                                    
+                                    </div>
+                                    <div
+                                        class="col-lg-6"  data-aos="flip-up">
+                                        <img style="height: 500px; width: 100%; border: solid 7px; border-color: gold;" src="https://media.istockphoto.com/id/472311505/vector/brown-duck-and-her-four-yellow-ducklings.jpg?s=612x612&w=0&k=20&c=ZCSbgDnqUf8_uoEZCfHOZXfVquOwwJnVFQeEdq5bdKI=" alt="">
+                                    </div>
+                                    
+                                </div>
+                                <h2 style="font-size: 40px; font-family: fantasy; color: #ffffff;text-align: center; ">5. The Wheels On The Bus</h2>  
+                                <div class="container">
+                                    <div class="row align-items-center">
+                                        
+                                        <div
+                                            class="col-lg-6"  data-aos="zoom-in-down">
+                                            <img style="height: 600px; width: 100%; border: solid 7px; border-color: white;" src="https://m.media-amazon.com/images/M/MV5BOTRiZWU0MDAtZjc5YS00MGUyLThmM2MtODJkNzc2ODE1YjMzXkEyXkFqcGdeQXVyMTA1ODIyODk4._V1_FMjpg_UX1000_.jpg" alt="">
+                                        </div>
+                                        <div
+                 class="col-lg-6">
+       <p style="font-size: 35px; font-family: fantasy;color: thistle;">The wheels on the bus go round and round,</p>
+   <p style="font-size: 35px; font-family: fantasy;color:rgb(244, 71, 71); " >Round and round, round and round.</p>
+   <p  style="font-size: 35px; font-family: fantasy; ;color: rgb(219, 255, 146);" >The wheels on the bus go round and round,</p>
+  <p   style="font-size: 35px; font-family: fantasy;color: rgb(103, 130, 255);">All through the town.</p>
+                                            <p   style="font-size: 35px; font-family: fantasy;color: aquamarine;">The wipers on the bus go swish, swish, swish,</p>
+                                            <p   style="font-size: 35px; font-family: fantasy;color: honeydew;">Swish, swish, swish, swish, swish, swish.</p>
+                                            <p   style="font-size: 35px; font-family: fantasy;color: khaki;">The wipers on the bus go swish, swish, swish,</p>
+                                            <p   style="font-size: 35px; font-family: fantasy;color: mediumorchid;">All through the town.</p>
+                                        </div>
+                                    </div> 
+                                </div> 
+                            </div> 
+                        </div> 
+                    </div> 
+                </div> 
+            </div> 
+        </div>   
+        <footer style="background-color:  #7b5392;" class=" text-center">
+            
+            <div class="container p-4 pb-0">
+              
+              <section class="mb-4">
+                <!-- Facebook -->
+                <a
+                data-mdb-ripple-init
+                  class="btn text-white btn-floating m-1"
+                  style="background-color: #3b5998;"
+                  href="https://www.facebook.com/"
+                  role="button"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+          
+                <!-- Twitter -->
+                <a
+                  data-mdb-ripple-init
+                  class="btn text-white btn-floating m-1"
+                  style="background-color: #55acee;"
+                  href="https://twitter.com/login"
+                  role="button"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+          
+                <!-- Google -->
+                <a
+                  data-mdb-ripple-init
+                  class="btn text-white btn-floating m-1"
+                  style="background-color: #dd4b39;"
+                  href="https://www.google.com/"
+                  role="button"
+                  ><i class="fab fa-google"></i
+                ></a>
+          
+                <!-- Instagram -->
+                <a
+                  data-mdb-ripple-init
+                  class="btn text-white btn-floating m-1"
+                  style="background-color: #ac2bac;"
+                  href="https://www.instagram.com/"
+                  role="button"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+          
+                <!-- Linkedin -->
+                <a
+                  data-mdb-ripple-init
+                  class="btn text-white btn-floating m-1"
+                  style="background-color: #0082ca;"
+                  href="https://www.linkedin.com/"
+                  role="button"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+                <!-- Github -->
+                <a
+                  data-mdb-ripple-init
+                  class="btn text-white btn-floating m-1"
+                  style="background-color: #333333;"
+                  href="https://github.com/"
+                  role="button"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </section>
+              
+            </div>
+            
+            <div class="text-center " style="background-color: rgba(255, 255, 255, 0.05); color: white;border: solid 2px; border-color: rgb(0, 0, 0); ">
+              Copyright © 2024 Your Kids Zone. All rights reserved.
+             
+            </div>
+            
+          </footer>          
+        <!-- Bootstrap JavaScript Libraries -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+        <script>
+            AOS.init();
+          </script>
+    </body>
+</html>
+<script>
+    function playAudio() {
+      var audio = document.getElementById("myAudio");
+      audio.play();
+    }
+  
+    </script>
+  

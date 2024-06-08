@@ -1,0 +1,431 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.green.css" integrity="sha512-riTSV+/RKaiReucjeDW+Id3WlRLVZlTKAJJOHejihLiYHdGaHV7lxWaCfAvUR0ErLYvxTePZpuKZbrTbwpyG9w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.green.min.css" integrity="sha512-C8Movfk6DU/H5PzarG0+Dv9MA9IZzvmQpO/3cIlGIflmtY3vIud07myMu4M/NTPJl8jmZtt/4mC9bAioMZBBdA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+   <style>
+        .navbar {
+            background-color: #7b5392;
+           /* Set navbar height to 80px */
+        }
+
+   
+
+        .nav-link {
+            color: white;
+        }
+
+        .logo {
+            height: 70px;
+            width: 300%; /* Make logo responsive */
+        }
+    </style>
+</head>
+
+<body style="background-color: #9f7cb4;" >
+    <nav class="navbar navbar-expand-sm  navbar-light" >
+        <div class="container">
+            <a class="navbar-brand">
+                <img class="logo" src="./images/logo.png"  alt="No Image">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html" aria-current="page">Home <span class="visually-hidden">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menus</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a class="dropdown-item" href="./abc.s.html">Small abcs</a>
+                            <a class="dropdown-item" href="./ABCDS.html">Capital ABCS</a>
+                            <a class="dropdown-item" href="./123.html">123</a>
+                            <a class="dropdown-item" href="./rhymes.html">Rhymes</a>
+                            <a class="dropdown-item" href="./tables.html">Tables</a>
+                            <a class="dropdown-item" href="./animals.html">Animals</a>
+                            <a class="dropdown-item" href="./vegetables.html">Vegetables</a>
+                            <a class="dropdown-item" href="./days.html">Days</a>
+                            <a class="dropdown-item" href="./months.html">Months</a>
+                            <a class="dropdown-item" href="./colors.html">Colors</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./feedback.html">FeedBack</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./faqs.html">Faqs</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div id="carouselId" class="carousel slide" data-bs-ride="carousel" style=" border: solid 6px;border-color:rgb(180, 125, 246);">
+        
+      <ol class="carousel-indicators" >
+          <li
+              data-bs-target="#carouselId"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="First slide"
+          ></li>
+          <li
+              data-bs-target="#carouselId"
+              data-bs-slide-to="1"
+              aria-label="Second slide"
+          ></li>
+          <li
+              data-bs-target="#carouselId"
+              data-bs-slide-to="2"
+              aria-label="Third slide"
+          ></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+              <img
+                  src="https://mtelizabeth.com/wp-content/uploads/2019/08/Dental-Care-Tips.jpg.webp" style="height:550px; width:70% ;"
+                  class="w-100 d-block"
+                  alt="First slide"
+              />
+          </div>
+          <div class="carousel-item">
+              <img
+                  src="https://t3.ftcdn.net/jpg/01/75/52/62/360_F_175526282_EISVXvx8FjKJDc9KbhzfHfqpKjw5eSji.jpg" style="height:550px; width:70% ;"
+                  class="w-100 d-block"
+                  alt="Second slide"
+              />
+          </div>
+          <div class="carousel-item">
+              <img 
+                  src="https://media.rnztools.nz/rnz/image/upload/s--Q3hHo7Sd--/c_scale,f_auto,q_auto,w_1050/v1643439255/4O0T18I_image_crop_50103" style="height:550px; width:70% ;"
+                  class="w-100 d-block"
+                  alt="Third slide"
+              
+                  />
+          </div>
+      </div>
+      <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselId"
+          data-bs-slide="prev"
+      >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselId"
+          data-bs-slide="next"
+      >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+      </button>
+  </div>
+
+  <br>
+  <br>
+  <br>
+    <br>
+      <div class="card-group">
+          <div class="card" style="border: solid 8px;border-color:rgb(180, 125, 246); ;">
+              <img style=" height: 300px; width: 100%; background-color: rgb(180, 125, 246);"
+                  class="card-img-top"
+                  src="https://img.freepik.com/free-vector/kids-zone-children-entertaiment-cartoons_18591-51530.jpg?size=626&ext=jpg&ga=GA1.1.553209589.1713657600&semt=ais"
+                  alt=""
+              />
+              <div class="card-body" style="background-color: rgb(180, 125, 246);">
+                  <h4  style=" font-style: italic; text-align: center; font-family: 'Times New Roman', Times, serif; -webkit-text-fill-color:whitesmoke; text-decoration-line:underline; background-color: rgb(180, 125, 246);" class="card-title"> Our Core Values </h4>
+                  <p style="font-size: x-large; font-family: 'Times New Roman', Times, serif; font-style: italic; -webkit-text-fill-color: whitesmoke; background-color: rgb(180, 125, 246);" class="card-text">We provide innovative methods of learning for your kids. <br> Enroll your child now to interact them with the fun learning experience. An innovative mindset can be nurtured and is accomplished through intentional opportunities for creative problem solving, critical thinking, collaboration, and active communication among peers. 
+                   </p>
+              </div>
+          </div>
+          <div class="card"   style="border: solid 8px;border-color:rgb(180, 125, 246); ;">
+              <img style=" height: 300px; width: 100%; background-color: rgb(180, 125, 246);"
+                  class="card-img-top"
+                  src="https://miro.medium.com/v2/resize:fit:657/1*mgtnU0xYfJ45oAoNnhf1fA.png"
+                  alt=""
+              />
+              <div class="card-body" style="background-color: rgb(180, 125, 246);">
+                  <h4 style="font-style: italic; text-align: center; background-color: rgb(180, 125, 246); font-family: 'Times New Roman', Times, serif;  -webkit-text-fill-color:whitesmoke; text-decoration: underline;" class="card-title"> Our Core Values </h4>
+                  <p style= "font-size:x-large; background-color: rgb(180, 125, 246); font-family:'Times New Roman', Times, serif; font-style: italic; -webkit-text-fill-color: whitesmoke;"class="card-text">E-learning objectives are the goals that learners aim to achieve at the end of a learning program. The process of gaining knowledge through the integration of technology to support and promote the students' experience. 
+                      <br> Through this method qe help learners to focus on what they need to learn and how they can achieve it.</p>
+              </div>
+          </div>
+      </div>
+      
+    <br>
+<br>
+<br>
+
+
+     
+  <div class="container"> <div>
+      
+  </div>
+  </div>
+  <div class="row">
+      <div class="col-sm-4 ">
+          <div class="card">
+              <div class="card-body" style="background-color: rgb(180, 125, 246);">
+                  <img src="https://thumbs.dreamstime.com/b/learning-fu/n-school-student-children-enjoy-education-knowledge-learn-to-read-books-teacher-child-book-reading-194830155.jpg" alt="" style="height:200px; width:100%">
+                  <h3 class="card-title" style="-webkit-text-fill-color:whitesmoke; text-decoration: underline; font-style: italic; font-size: xx-large; font-family: 'Times New Roman', Times, serif;">Learn Fun Explore </h3>
+                  <p class="card-text" style="-webkit-text-fill-color:whitesmoke; background-color:rgb(180, 125, 246); font-style: italic;">Hey, curious mind! Ready to dive into the sea of knowledge? Any burning questions on your mind? Let's talk about it!!!
+                      <br> Our curriculum is designed to engage children in inspiring activities that promote learning in a fun way..
+
+                  </p>
+              </div>
+          </div>
+      </div>
+    <div class="col-sm-4" >
+     <div class="card">
+              <div class="card-body" style=" background-color: rgb(180, 125, 246);">
+             <img src="https://st.depositphotos.com/1002111/1408/i/450/depositphotos_14085126-stock-photo-kids-six.jpg" alt="" style="height:200px; width:100%"/> 
+                  <h3 class="card-title" style="-webkit-text-fill-color: whitesmoke; font-style: italic; text-decoration: underline; font-size: xx-large; font-family: 'Times New Roman', Times, serif;" > Our Vision</h3>
+                  <p class="card-text"  style="-webkit-text-fill-color:whitesmoke; background-color:rgb(180, 125, 246); font-style: italic;">Education is the act of learning things around us. It helps us to understand and deal with any problem easily and makes balance throughout the whole life in every aspect. Our vision is to be the source for childhood learning on the internet available from anywhere for everyone. 
+                  </p>
+                  </div>
+          </div>
+          </div>
+       <div class="col-sm-4">
+          <div class="card">
+                  <div class="card-body" style="background-color: rgb(180, 125, 246);">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdcA-g3XoMo_s4v0F2n_mykEhkNdNsy27xPU9kiJvF9g&s" alt="" style="height:200px; width:100%"/> 
+                  <h3 class="card-title" style="-webkit-text-fill-color: whitesmoke; font-style: italic; font-size: xx-large; text-decoration: underline; font-family: 'Times New Roman', Times, serif;"> Creative Learning </h3>
+                  <p class="card-text" style="-webkit-text-fill-color:whitesmoke; background-color: rgb(180, 125, 246); font-style: italic;"> Creativity motivates kids to learn. When students are focused on a creative goal, they become more absorbed in their learning and more driven to acquire the skills they need to accomplish. Creative learning, a subset of active learning. <br> 
+                      </p>
+                  </div>
+              </div>
+       </div>
+       </div>
+       
+       
+
+<br>
+
+
+          <div class="owl-carousel owl-theme">
+              <div class="item"><div class="card">
+                  <img class="card-img-top" src="https://www.positivities.com/wp-content/uploads/2019/03/abc-song-abc-alphabet-song-for-c.jpg" alt="Title"style="height: 300px; width:100%"/>
+                  <div class="card-body" style="background-color:rgb(180, 125, 246);">
+                      <h4 class="card-title" style=" text-align:center; -webkit-text-fill-color: whitesmoke;"> small abc </h4>
+                      <p class="card-text" style="text-align:center; -webkit-text-fill-color: whitesmoke; font-style: italic; font-size: large;"> Learn With Fun </p>
+                  </div>
+              </div>
+              </div>
+              <div class="item"><div class="card">
+                  <img class="card-img-top" src="https://i.ytimg.com/vi/cSKj4Do1PbI/maxresdefault.jpg" alt="Title" style="height: 300px; width:100%"/>
+                  <div class="card-body" style="background-color:rgb(180, 125, 246);">
+                      <h4 class="card-title" style="text-align:center; -webkit-text-fill-color: whitesmoke;"> Capital ABC</h4>
+                      <p class="card-text" style="text-align:center; -webkit-text-fill-color: whitesmoke; font-style: italic; font-size: large;" > Learn With Fun </p>
+                  </div> 
+              </div>
+              </div>
+              <div class="item"><div class="card">
+                  <img class="card-img-top" src="https://play-lh.googleusercontent.com/jz6AvEE21DttEeUzwAGvTh3W46eoBsJ2u9C9SWbDkeVvxYiZj3YS-JSuW6qTdr8dQio=w600-h300-pc0xffffff-pd" alt="Title"style="height: 300px; width:100%" />
+                  <div class="card-body" style="background-color:rgb(180, 125, 246);">
+                      <h4 class="card-title" style="text-align:center; -webkit-text-fill-color: whitesmoke;"> 123 </h4>
+                      <p class="card-text" style="text-align:center; -webkit-text-fill-color: whitesmoke; font-style: italic; font-size: large;">Learn With Fun</p>
+                  </div>
+              </div>
+              </div>
+              <div class="item"><div class="card">
+                  <img class="card-img-top" src="https://www.jericholibrary.org/sites/default/files/styles/large/public/2018-03/rhymetime.jpg?itok=RAhTFuxv" alt="Title" style="height: 300px; width:100%"/>
+                  <div class="card-body" style="background-color:rgb(180, 125, 246);">
+                      <h4 class="card-title" style="text-align:center; -webkit-text-fill-color: whitesmoke;"> Rhymes </h4>
+                      <p class="card-text" style="text-align:center; -webkit-text-fill-color: whitesmoke; font-style: italic; font-size: large;">Learn With Fun </p>
+                  </div>
+              </div>
+              </div>
+              <div class="item"><div class="card">
+                  <img class="card-img-top" src="https://play-lh.googleusercontent.com/-Sb69a3Q-ASz0lfC8ASqH2E1heLqU5rH7l-JmV_84m4c45p8qPsSc8vSZ6lOjzq9-A=w240-h480-rw" alt="Title" style="height: 300px; width:100%"/>
+                  <div class="card-body" style="background-color:rgb(180, 125, 246);">
+                      <h4 class="card-title" style="text-align:center; -webkit-text-fill-color: whitesmoke;"> Times Table </h4>
+                      <p class="card-text" style="text-align:center; -webkit-text-fill-color: whitesmoke; font-style: italic; font-size: large;">Learn With Fun </p>
+                  </div>
+              </div>
+              </div>
+              <div class="item"><div class="card">
+                  <img class="card-img-top" src="https://i.ytimg.com/vi/5J8QBQurkH0/maxresdefault.jpg" alt="Title" style="height: 300px; width:100%"/>
+                  <div class="card-body" style="background-color:rgb(180, 125, 246);">
+                      <h4 class="card-title" style="text-align:center; -webkit-text-fill-color: whitesmoke;"> Animals</h4>
+                      <p class="card-text" style="text-align:center; -webkit-text-fill-color: whitesmoke; font-style: italic; font-size: large;"> Learn With Fun </p>
+                  </div>
+              </div>
+              </div>
+              <div class="item"><div class="card">
+                  <img class="card-img-top" src="https://i.ytimg.com/vi/TztquZvayd0/mqdefault.jpg" alt="Title"style="height: 300px; width:100%"/>
+                  <div class="card-body" style="background-color:rgb(180, 125, 246);">
+                      <h4 class="card-title" style="text-align:center; -webkit-text-fill-color: whitesmoke;"> Vegetables</h4>
+                      <p class="card-text" style="text-align:center; -webkit-text-fill-color: whitesmoke; font-style: italic; font-size: large;"> Learn With Fun </p>
+                  </div>
+              </div>
+              </div>
+              <div class="item"> <div class="card">
+                  <img class="card-img-top" src="https://i.ytimg.com/vi/XKnRahzQiKc/maxresdefault.jpg" alt="Title" style="height: 300px; width:100%"/>
+                  <div class="card-body" style="background-color:rgb(180, 125, 246);">
+                      <h4 class="card-title" style="text-align:center; -webkit-text-fill-color: whitesmoke;"> Days of the Week</h4>
+                      <p class="card-text" style="text-align:center; -webkit-text-fill-color: whitesmoke; font-style: italic; font-size: large;" > Learn With Fun </p>
+                  </div>
+              </div>
+              </div>
+              <div class="item"><div class="card">
+                  <img class="card-img-top" src="https://i.ytimg.com/vi/imIZbfdjfm0/mqdefault.jpg" alt="Title" style="height: 300px; width:100%"/>
+                  <div class="card-body" style="background-color: rgb(180, 125, 246);">
+                      <h4 class="card-title" style="text-align:center; -webkit-text-fill-color: whitesmoke;"> Months of the Year </h4>
+                      <p class="card-text" style="text-align:center; -webkit-text-fill-color: whitesmoke; font-style: italic; font-size: large;"> Learn With Fun </p>
+                  </div>
+              </div>
+              </div>
+              <div class="item"><div class="card">
+                  <img class="card-img-top" src="https://s1.dmcdn.net/v/QB-SE1aMGr10UZFGh/x360" alt="Title" style="height: 300px; width:100%"/>
+                  <div class="card-body" style="background-color:rgb(180, 125, 246);">
+                      <h4 class="card-title" style="text-align:center; -webkit-text-fill-color: whitesmoke;"> Colors </h4>
+                      <p class="card-text" style="text-align:center; -webkit-text-fill-color: whitesmoke; font-style: italic; font-size: large;"> Learn With Fun </p>
+                  </div>
+              </div>
+              </div>
+              <div class="item"><div class="card">
+                  <img class="card-img-top" src="https://t3.ftcdn.net/jpg/04/67/59/34/360_F_467593471_jHrZtnHAqr4K22LvVBjIWIYsCAylJoQm.jpg" alt="Title" style="height: 300px; width:100%" />
+                  <div class="card-body" style="background-color: rgb(180, 125, 246);">
+                      <h4 class="card-title" style="text-align:center; -webkit-text-fill-color: whitesmoke;"> Good Habits </h4>
+                      <p class="card-text" style="text-align:center; -webkit-text-fill-color: whitesmoke; font-style: italic; font-size: large;"> Learn With Fun </p>
+                  </div>
+              </div>
+              </div>
+              <div class="item"><div class="card">
+                  <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWQYc4TuqmnvvhIIDAdDxQ4tDk24j4rWFcywW3CFMIYA&s" alt="Title" style="height: 300px; width:100%"/>
+                  <div class="card-body" style="background-color: rgb(180, 125, 246);">
+                      <h4 class="card-title" style="text-align:center; -webkit-text-fill-color: whitesmoke;"> Fun Activities </h4>
+                      <p class="card-text" style="text-align:center; -webkit-text-fill-color:whitesmoke ; font-style: italic; font-size: large;"> Learn With Fun </p>
+                  </div>
+              </div>
+              </div>
+          </div> 
+          
+
+    
+    <footer  class=" text-center" style="background-color:  #7b5392;">
+            
+        <div class="container p-4 pb-0">
+          
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a
+            data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #3b5998;"
+              href="https://www.facebook.com/"
+              role="button"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+      
+            <!-- Twitter -->
+            <a
+              data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #55acee;"
+              href="https://twitter.com/login"
+              role="button"
+              ><i class="fab fa-twitter"></i
+            ></a>
+      
+            <!-- Google -->
+            <a
+              data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #dd4b39;"
+              href="https://www.google.com/"
+              role="button"
+              ><i class="fab fa-google"></i
+            ></a>
+      
+            <!-- Instagram -->
+            <a
+              data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #ac2bac;"
+              href="https://www.instagram.com/"
+              role="button"
+              ><i class="fab fa-instagram"></i
+            ></a>
+      
+            <!-- Linkedin -->
+            <a
+              data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #0082ca;"
+              href="https://www.linkedin.com/"
+              role="button"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <!-- Github -->
+            <a
+              data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #333333;"
+              href="https://github.com/"
+              role="button"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+          
+        </div>
+        
+        <div class="text-center " style="background-color: rgba(255, 255, 255, 0.05); color: white;border: solid 2px; border-color: rgb(0, 0, 0); ">
+          Copyright © 2024 Your Kids Zone. All rights reserved.
+         
+        </div>
+        
+      </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
+<script>
+  $('.owl-carousel').owlCarousel({
+      loop:true,
+      margin:10,
+      nav:true,
+      responsive:{
+          0:{
+              items:1
+          },
+          600:{
+              items:3
+          },
+          1000:{
+              items:5
+          }
+      }
+  })
+  
+  </script>
